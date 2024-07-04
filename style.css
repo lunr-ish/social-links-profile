@@ -85,10 +85,30 @@ a {
   border-radius: 0.75rem;
 }
 
+.card__header {
+  padding-inline: 0.75rem;
+  margin-bottom: 1.625rem;
+}
+
 .avatar {
   width: 5.5rem;
   height: 5.5rem;
   border-radius: 100%;
   overflow: hidden;
   margin-inline: auto;
+}
+
+.card__title {
+  font-size: 1.5rem;
+  margin-top: 1.75rem;
+}
+
+.card__subtitle {
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+  color: hsl(var(--clr-primary));
+}
+
+.card__description {
+  margin-top: 1.75rem;
 }
