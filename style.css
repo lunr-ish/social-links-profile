@@ -84,3 +84,11 @@ a {
   padding: 2.5rem;
   border-radius: 0.75rem;
 }
+
+.avatar {
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 100%;
+  overflow: hidden;
+  margin-inline: auto;
+}
