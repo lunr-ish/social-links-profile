@@ -133,7 +133,8 @@ main {
   transition-duration: 200ms;
 }
 
-.social-link:hover {
+.social-link:hover,
+.social-link:focus-visible {
   background: hsl(var(--clr-primary));
   color: hsl(var(--clr-secondary));
 }
