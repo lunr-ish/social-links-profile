@@ -57,6 +57,10 @@ body {
   padding: 1.5rem;
   background: hsl(var(--clr-bg));
   color: hsl(var(--clr-white));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 img {
@@ -72,4 +76,11 @@ a {
   text-decoration: none;
   color: inherit;
   outline: transparent;
+}
+
+.card {
+  max-width: 24rem;
+  background: hsl(var(--clr-card-bg));
+  padding: 2.5rem;
+  border-radius: 0.75rem;
 }
