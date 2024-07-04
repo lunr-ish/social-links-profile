@@ -54,12 +54,9 @@ body {
   min-height: 100vh;
   font-family: var(--ff-inter);
   font-size: 0.875rem;
-  padding: 1.5rem;
   background: hsl(var(--clr-bg));
   color: hsl(var(--clr-white));
   display: flex;
-  align-items: center;
-  justify-content: center;
   text-align: center;
 }
 
@@ -78,10 +75,19 @@ a {
   outline: transparent;
 }
 
+main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
 .card {
+  width: 100%;
   max-width: 24rem;
   background: hsl(var(--clr-card-bg));
-  padding: 2.5rem;
+  padding: 1.5rem;
   border-radius: 0.75rem;
 }
 
@@ -111,4 +117,29 @@ a {
 
 .card__description {
   margin-top: 1.75rem;
+}
+
+.social-link-item:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.social-link {
+  display: block;
+  background: red;
+  font-weight: var(--fw-semibold);
+  background: hsl(var(--clr-secondary));
+  padding: 0.875rem;
+  border-radius: 0.5rem;
+  transition-duration: 200ms;
+}
+
+.social-link:hover {
+  background: hsl(var(--clr-primary));
+  color: hsl(var(--clr-secondary));
+}
+
+@media (min-width: 40rem) {
+  .card {
+    padding: 2.5rem;
+  }
 }
