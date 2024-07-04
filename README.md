@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/social-links-profile-bpNy3AcdY9](https://www.frontendmentor.io/solutions/social-links-profile-bpNy3AcdY9)
 - Live Site URL: [https://lunr-ish.github.io/social-links-profile/](https://lunr-ish.github.io/social-links-profile/)
 
 ## My process
